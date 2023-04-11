@@ -38,8 +38,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="icons">
-          <Link to={"https://www.facebook.com/weddingalbum2"}><i className="fa-brands  fa-facebook"></i></Link>
-          <Link to={"https://www.instagram.com/wedding_album_hub/"}><i className="fa-brands footicn fa-instagram"></i></Link>
+          <Link to={"https://www.facebook.com/pranjit.lahkar.12"}><i className="fa-brands  fa-facebook"></i></Link>
+          <Link to={"https://www.instagram.com/pranjit_lahkar63/"}><i className="fa-brands footicn fa-instagram"></i></Link>
         </div>
         <div className='hamburger' onClick={() => {
           sethamburger(!hamburger)
