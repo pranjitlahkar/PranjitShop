@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shipcont{
+    display: grid;
+    grid-template-columns: repeat(3 ,200px);
+    justify-content: center;
+    align-items: center;
+}
+.shipbox{
+    
+    margin: 1rem;
+    padding: 1rem;
+}
+.shipboxflex{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(159, 205, 211, 0.74);
+    border-radius: 20px;
+}
+.shipbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.shipgrid{
+    background-color: rgba(159, 205, 211, 0.74);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.shipbox3{
+    height: 180px;
+    width: 200px;
+}
+.icondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}

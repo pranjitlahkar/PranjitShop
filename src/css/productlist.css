@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.productitems{
+    margin-top: 1rem;
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+.pitems{
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+}

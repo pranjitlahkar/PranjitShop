@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardcont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    width:300px;
+    overflow:hidden;
+}
+.figbox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    }
+    .card{
+border: 1px solid black;
+
+    }
+    .caption{
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        border:1px solid black;
+        border-radius:20px ;
+        padding: 0.3rem;
+    }

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cartgrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    justify-content: center;
+
+
+}
+.shippergrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   align-content: center;
+}
+.totalCont{
+    width: 50%;
+    border: 1px solid black;
+    padding: 1rem;
+    
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.userinf{
+    display: flex;
+    justify-content: center;
+    grid-area: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}

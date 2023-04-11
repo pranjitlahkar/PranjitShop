@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=DM+Serif+Display&family=Ms+Madi&family=Oswald:wght@600&display=swap');
+
+.block{
+    display: block;
+}
+
+
+*{
+    margin: 0pc;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo a img{
+    height: 150px;
+    width: 180px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-shadow: 2px 1px 3px -5px #e8d7d7b6;
+    
+}
+.navlink {
+    
+    display: flex;
+    gap: 2em;
+}
+.navlink li {
+    list-style-type: none;
+    
+}
+.navlink li a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    transition: all 0.4s linear ;
+    
+
+}
+.navlink li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.icons{
+    margin-right: 1em;
+    cursor: pointer;
+    display: flex;
+    gap:0.5em;
+    font-size:x-large;
+    
+}
+.fa-facebook{
+    transition: all 0.4s linear;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram{
+    transition: all 0.3s linear;
+}
+.fa-instagram:hover{
+color: purple;
+}
+.hamburger{
+    display: none;
+}
+.icons a{
+    text-decoration: none;
+    color: #000000;
+
+}
+/* media queries */
+
+@media only screen and (max-width:700px) {
+    .logo a img{
+        height: 100px;
+        width: 100px;
+        margin-right:auto;
+    }
+    .navlink li a{
+        
+        font-weight: bolder;
+        font-size: large;
+        
+        
+    
+    }
+    .hamburger{
+        font-size: 1.5rem;
+        display: block;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .links{
+        display: none;
+    }
+    .navlink{
+        flex-direction: column;
+       
+    }
+    .icons{
+        display: none;
+    }
+}
+.loginout{
+    background-color: #be3455;
+    color: #ffffff;
+    padding: 0.5rem;
+    border :1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}

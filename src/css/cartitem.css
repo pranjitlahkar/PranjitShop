@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+.cartitemgrid{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+}
+.imageandname{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.imageandname img{
+    height: 50px;
+    width: 50px;
+}
+.colorbx{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.colordiv{
+    display: flex;
+}
+.nameandcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brandscont{
+    padding: 1.5rem;
+    background-color: rgba(158, 158, 158, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.brandslogo{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+.brandslogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

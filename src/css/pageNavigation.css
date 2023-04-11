@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagelink{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+

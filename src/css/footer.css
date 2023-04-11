@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footercont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #252525;
+    color: #ffffff;
+    
+}
+.footcontent{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 1rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons div i{
+    display: inline-block;
+   
+    
+}
+.subinput{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    padding: 2rem;
+    width: 60%;
+    background-color: bisque;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+    top: -30%;
+}
